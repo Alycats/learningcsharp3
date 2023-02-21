@@ -2,7 +2,17 @@
 class Program
 {
     static void Main(string[] args)
+    
     {
+
+
+
+
+
+Console.ReadKey(true); 
+    }
+static void StringPractice()
+{
 string num1, num2, temp;
 
         Console.WriteLine("Input first number");
@@ -16,6 +26,7 @@ string num1, num2, temp;
         Console.WriteLine($"First Number : {num1}");
         Console.WriteLine($"Second Number : {num2}");
 
-        Console.ReadKey(true); 
-    }
+        
+}
+
 }
