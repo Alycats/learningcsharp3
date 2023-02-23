@@ -2,9 +2,23 @@
 class Program
 {
     static void Main(string[] args)
-    
     {
 
+    }
+
+
+
+       static string [] cars ={"Volvo", "Hatchback", "Marcades", "ect"};
+       static void choices()
+    {
+     
+        for (int i=0; i<10; i++)
+        {
+            Console.WriteLine ($"CarOne,(i+1): {cars [4]}");
+            int choices = Convert.ToInt32 Console.ReadLine();
+            Console.WriteLine ("You Selected"+ cars[choices-1]);
+            choices.Add (cars[choices-1]);
+        }
 
 
 
